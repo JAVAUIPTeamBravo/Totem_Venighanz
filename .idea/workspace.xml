@@ -2,194 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/boy-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/boy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/girl-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/girl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/man-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/man-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/man-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/man-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/avatar/man.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/binoculars.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing-7.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud-computing.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/cloudy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/delete-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/delete-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/download-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/download-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/garbage-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/garbage-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/garbage.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/hide.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/loading-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/loading-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/loading-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/loading.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/login-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/login.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/logout-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/logout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu-6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/more-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/more-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/more.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/power-button-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/power-button.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/refresh-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/refresh-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/refresh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/reply-all.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/reply.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/search-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/show.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/switch-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/switch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/upload-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/upload-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/botones/upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/001-bathtub.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/002-towel-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/003-toilet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/004-television-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/005-telephone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/006-towel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/007-suitcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/008-bath.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/009-shower.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/010-room-service-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/011-room-service.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/012-room-key.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/013-restaurant-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/014-reception.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/015-swimming-pool.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/016-television.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/017-mirror.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/018-minibar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/019-parking.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/020-doorknob-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/021-hotel-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/022-hotel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/023-hotel-bell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/024-heater.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/025-hairdryer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/026-restaurant.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/027-exit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/028-elevator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/029-doorknob-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/030-doorknob.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/031-cab.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/032-bellhop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/033-single-bed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/034-bathrobe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/035-air-conditioner.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/036-five-stars-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/037-five-stars.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/038-bed-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/039-24-hours.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/hotel/040-bed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/001-wine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/002-restaurant-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/003-sushi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/004-spice.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/005-soup.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/006-shot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/007-sausage.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/008-restaurant-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/009-restaurant-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/010-dinner-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/011-booked-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/012-invoice.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/013-pizza-slice.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/014-pizza.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/015-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/016-napkin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/017-menu-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/018-menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/019-chicken-leg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/020-sauce.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/021-coffee-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/022-picture.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/023-fish.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/024-wine-menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/025-restaurant-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/026-piece-of-cake.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/027-restaurant.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/028-coffee.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/029-cocktail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/030-dinner.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/031-champagne.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/032-chef.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/033-money.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/034-payment-method.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/035-booked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/restaurante/036-bill.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/001-youtube.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/002-yelp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/003-wordpress.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/004-wikipedia.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/005-whatsapp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/006-vine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/007-vimeo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/008-twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/009-tumblr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/010-trello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/011-stumbleupon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/012-spotify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/013-soundcloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/014-snapchat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/015-skype.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/016-shutterstock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/017-scribd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/018-reddit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/019-quora.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/020-plaxo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/021-pinterest.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/022-periscope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/023-paypal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/024-path.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/025-myspace.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/026-medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/027-linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/028-kickstarter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/029-instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/030-html-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/031-howcast.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/032-hi5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/033-google-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/034-foursquare.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/035-flickr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/036-facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/037-etsy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/038-envato.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/039-dropbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/040-dribbble.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/041-deviantart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/042-delicious.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/043-creative-market.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/044-buffer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/045-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/046-bing.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/047-behance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/048-android.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Icons/FlatIcons/social-media/049-amazon.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -320,8 +133,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="1056">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -333,8 +146,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="1320">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -604,6 +417,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="729" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -713,8 +527,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="1320">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -724,8 +538,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="1056">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
