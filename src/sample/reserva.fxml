@@ -35,7 +35,7 @@
               <buttons>
                   <DatePicker />
                   <ChoiceBox prefWidth="150.0" />
-                <Button mnemonicParsing="false" prefHeight="25.0" text="BUSCAR" />
+                <Button mnemonicParsing="false" prefHeight="21.0" text="BUSCAR" />
               </buttons>
             </ButtonBar>
             <GridPane style="-fx-background-color: F8E0E6;" GridPane.rowIndex="2">
@@ -127,6 +127,7 @@
                         <Insets left="20.0" />
                      </GridPane.margin>
                   </Label>
+                  <ImageView fitHeight="393.0" fitWidth="464.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
                </children>
             </GridPane>
             <GridPane style="-fx-background-color: #FFFFFF;">
@@ -136,12 +137,14 @@
               <rowConstraints>
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="94.0" fitWidth="286.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Bennigan's%20logo%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
             </GridPane>
-            <ImageView fitHeight="94.0" fitWidth="286.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Bennigan's%20logo%20(1).png" />
-               </image>
-            </ImageView>
          </children>
       </GridPane>
    </children>
