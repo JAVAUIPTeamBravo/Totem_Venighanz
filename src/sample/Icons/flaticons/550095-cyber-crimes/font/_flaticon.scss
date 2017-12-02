@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 06/09/2017 08:16
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-password-1:before { content: "\f100"; }
+.flaticon-002-trojan:before { content: "\f101"; }
+.flaticon-003-ransomware:before { content: "\f102"; }
+.flaticon-004-bitcoin-1:before { content: "\f103"; }
+.flaticon-005-bitcoin:before { content: "\f104"; }
+.flaticon-006-webcam:before { content: "\f105"; }
+.flaticon-007-email:before { content: "\f106"; }
+.flaticon-008-pirate:before { content: "\f107"; }
+.flaticon-009-shield:before { content: "\f108"; }
+.flaticon-010-virus-5:before { content: "\f109"; }
+.flaticon-011-magnifying-glass:before { content: "\f10a"; }
+.flaticon-012-satellite-dish:before { content: "\f10b"; }
+.flaticon-013-virus-4:before { content: "\f10c"; }
+.flaticon-014-paper-shredder:before { content: "\f10d"; }
+.flaticon-015-wifi:before { content: "\f10e"; }
+.flaticon-016-padlock-1:before { content: "\f10f"; }
+.flaticon-017-internet:before { content: "\f110"; }
+.flaticon-018-credit-card:before { content: "\f111"; }
+.flaticon-019-firewall:before { content: "\f112"; }
+.flaticon-020-virus-3:before { content: "\f113"; }
+.flaticon-021-spy:before { content: "\f114"; }
+.flaticon-022-bomb:before { content: "\f115"; }
+.flaticon-023-key:before { content: "\f116"; }
+.flaticon-024-chat:before { content: "\f117"; }
+.flaticon-025-police:before { content: "\f118"; }
+.flaticon-026-criminal:before { content: "\f119"; }
+.flaticon-027-virus-2:before { content: "\f11a"; }
+.flaticon-028-browser:before { content: "\f11b"; }
+.flaticon-029-virus-1:before { content: "\f11c"; }
+.flaticon-030-virus:before { content: "\f11d"; }
+.flaticon-031-smartphone-1:before { content: "\f11e"; }
+.flaticon-032-smartphone:before { content: "\f11f"; }
+.flaticon-033-file-1:before { content: "\f120"; }
+.flaticon-034-padlock:before { content: "\f121"; }
+.flaticon-035-password:before { content: "\f122"; }
+.flaticon-036-radar:before { content: "\f123"; }
+.flaticon-037-eye:before { content: "\f124"; }
+.flaticon-038-siren-1:before { content: "\f125"; }
+.flaticon-039-stethoscope:before { content: "\f126"; }
+.flaticon-040-puzzle:before { content: "\f127"; }
+.flaticon-041-file:before { content: "\f128"; }
+.flaticon-042-first-aid-kit:before { content: "\f129"; }
+.flaticon-043-thinking:before { content: "\f12a"; }
+.flaticon-044-biohazard:before { content: "\f12b"; }
+.flaticon-045-cctv:before { content: "\f12c"; }
+.flaticon-046-clipboard:before { content: "\f12d"; }
+.flaticon-047-user:before { content: "\f12e"; }
+.flaticon-048-siren:before { content: "\f12f"; }
+.flaticon-049-fingerprint:before { content: "\f130"; }
+.flaticon-050-alert:before { content: "\f131"; }
+    
+    $font-Flaticon-001-password-1: "\f100";
+    $font-Flaticon-002-trojan: "\f101";
+    $font-Flaticon-003-ransomware: "\f102";
+    $font-Flaticon-004-bitcoin-1: "\f103";
+    $font-Flaticon-005-bitcoin: "\f104";
+    $font-Flaticon-006-webcam: "\f105";
+    $font-Flaticon-007-email: "\f106";
+    $font-Flaticon-008-pirate: "\f107";
+    $font-Flaticon-009-shield: "\f108";
+    $font-Flaticon-010-virus-5: "\f109";
+    $font-Flaticon-011-magnifying-glass: "\f10a";
+    $font-Flaticon-012-satellite-dish: "\f10b";
+    $font-Flaticon-013-virus-4: "\f10c";
+    $font-Flaticon-014-paper-shredder: "\f10d";
+    $font-Flaticon-015-wifi: "\f10e";
+    $font-Flaticon-016-padlock-1: "\f10f";
+    $font-Flaticon-017-internet: "\f110";
+    $font-Flaticon-018-credit-card: "\f111";
+    $font-Flaticon-019-firewall: "\f112";
+    $font-Flaticon-020-virus-3: "\f113";
+    $font-Flaticon-021-spy: "\f114";
+    $font-Flaticon-022-bomb: "\f115";
+    $font-Flaticon-023-key: "\f116";
+    $font-Flaticon-024-chat: "\f117";
+    $font-Flaticon-025-police: "\f118";
+    $font-Flaticon-026-criminal: "\f119";
+    $font-Flaticon-027-virus-2: "\f11a";
+    $font-Flaticon-028-browser: "\f11b";
+    $font-Flaticon-029-virus-1: "\f11c";
+    $font-Flaticon-030-virus: "\f11d";
+    $font-Flaticon-031-smartphone-1: "\f11e";
+    $font-Flaticon-032-smartphone: "\f11f";
+    $font-Flaticon-033-file-1: "\f120";
+    $font-Flaticon-034-padlock: "\f121";
+    $font-Flaticon-035-password: "\f122";
+    $font-Flaticon-036-radar: "\f123";
+    $font-Flaticon-037-eye: "\f124";
+    $font-Flaticon-038-siren-1: "\f125";
+    $font-Flaticon-039-stethoscope: "\f126";
+    $font-Flaticon-040-puzzle: "\f127";
+    $font-Flaticon-041-file: "\f128";
+    $font-Flaticon-042-first-aid-kit: "\f129";
+    $font-Flaticon-043-thinking: "\f12a";
+    $font-Flaticon-044-biohazard: "\f12b";
+    $font-Flaticon-045-cctv: "\f12c";
+    $font-Flaticon-046-clipboard: "\f12d";
+    $font-Flaticon-047-user: "\f12e";
+    $font-Flaticon-048-siren: "\f12f";
+    $font-Flaticon-049-fingerprint: "\f130";
+    $font-Flaticon-050-alert: "\f131";
