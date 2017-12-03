@@ -2,7 +2,6 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -28,18 +27,22 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label graphicTextGap="12.0" prefHeight="22.0" prefWidth="72.0" text="Inicio " textAlignment="CENTER" textFill="#f70707" wrapText="true">
+            <Label text="INICIO">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="12.0" />
+                  <Font name="Copperplate Gothic Bold" size="20.0" />
                </font>
                <GridPane.margin>
-                  <Insets left="25.0" />
+                  <Insets left="420.0" />
                </GridPane.margin>
-               <effect>
-                  <ColorAdjust />
-               </effect>
             </Label>
-            <ImageView fitHeight="100.0" fitWidth="275.0" pickOnBounds="true" preserveRatio="true" />
+            <Label text="MENU">
+               <font>
+                  <Font name="Lucida Bright Demibold" size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="520.0" />
+               </GridPane.margin>
+            </Label>
          </children>
       </GridPane>
       <GridPane prefHeight="209.0" prefWidth="600.0" style="-fx-background-color: #000000;" GridPane.rowIndex="1">
@@ -91,21 +94,18 @@
          </GridPane.margin>
       </GridPane>
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
-      <ImageView fitHeight="228.0" fitWidth="419.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+      <ImageView fitHeight="235.0" fitWidth="401.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
          <image>
-            <Image url="@Icons/FlatIcons/social-media/png/coral-reef-restaurant.jpg" />
+            <Image url="@Icons/FlatIcons/social-media/png/rest%20con%20peces.jpg" />
          </image>
          <GridPane.margin>
-            <Insets left="194.0" />
+            <Insets left="200.0" />
          </GridPane.margin>
       </ImageView>
-      <ImageView fitHeight="134.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+      <ImageView fitHeight="201.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
          <image>
-            <Image url="@Icons/FlatIcons/social-media/png/ubicacion.jpg" />
+            <Image url="@Icons/FlatIcons/social-media/png/mapa.png" />
          </image>
-         <GridPane.margin>
-            <Insets />
-         </GridPane.margin>
       </ImageView>
    </children>
 </GridPane>
