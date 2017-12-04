@@ -12,8 +12,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -31,11 +30,11 @@
             <RowConstraints maxHeight="256.0" minHeight="10.0" prefHeight="256.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ButtonBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #04B404;" GridPane.rowIndex="1">
+            <ButtonBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #04B404;" stylesheets="@stylesheets/main.css" GridPane.rowIndex="1">
               <buttons>
-                  <DatePicker />
-                  <ChoiceBox prefWidth="150.0" />
-                <Button mnemonicParsing="false" prefHeight="21.0" text="BUSCAR" />
+                  <DatePicker stylesheets="@stylesheets/bootstrap3.css" />
+                  <ChoiceBox prefWidth="150.0" stylesheets="@stylesheets/bootstrap3.css" />
+                <Button mnemonicParsing="false" prefHeight="21.0" stylesheets="@stylesheets/bootstrap3.css" text="BUSCAR" />
               </buttons>
             </ButtonBar>
             <GridPane style="-fx-background-color: F8E0E6;" GridPane.rowIndex="2">
