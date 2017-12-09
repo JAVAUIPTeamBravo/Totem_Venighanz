@@ -44,6 +44,14 @@
                   <Insets left="520.0" />
                </GridPane.margin>
             </Label>
+            <ImageView fitHeight="97.0" fitWidth="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG-4860.JPG" />
+               </image>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </ImageView>
          </children>
          <stylesheets>
             <URL value="@stylesheets/main.css" />
@@ -112,10 +120,10 @@
             <Image url="@Icons/FlatIcons/social-media/png/mapa.png" />
          </image>
          <GridPane.margin>
-            <Insets top="30.0" />
+            <Insets top="70.0" />
          </GridPane.margin>
       </ImageView>
-      <Label text="Direccion: " GridPane.rowIndex="2">
+      <Label text="Dirección: " GridPane.rowIndex="2">
          <font>
             <Font name="Lucida Calligraphy Italic" size="15.0" />
          </font>
@@ -128,7 +136,15 @@
             <Font name="Lucida Calligraphy Italic" size="14.0" />
          </font>
          <GridPane.margin>
-            <Insets bottom="150.0" left="15.0" />
+            <Insets bottom="150.0" left="15.0" top="50.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="La Chorrera, Market Plaza" GridPane.rowIndex="2">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="150.0" />
          </GridPane.margin>
       </Label>
    </children>
