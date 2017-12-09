@@ -61,9 +61,14 @@
                   <Insets left="550.0" top="20.0" />
                </GridPane.margin>
             </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="264.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG-4860.JPG" />
+               </image>
+            </ImageView>
          </children>
       </GridPane>
-      <GridPane style="-fx-background-image: url(&quot;parilla.jpeg&quot;);" GridPane.rowIndex="1">
+      <GridPane fx:id="Vengh_menu_pane" style="-fx-background-image: url(&quot;parilla.jpeg&quot;);" GridPane.rowIndex="1">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
