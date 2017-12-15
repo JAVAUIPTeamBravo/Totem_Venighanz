@@ -6,12 +6,12 @@ Programa elaborado en JAVA para reservaciones de Mesa en el restaurante Venighan
 Intregrantes:
 
 * Luis Mora
-* Shirley
-* Linda
-* Manuel
-* Diana
-* Gizzy
+* Shirley Quintero
+* Linda Bethancourt
+* Manuel Serna
+* Diana Reyes
+* Gisabel Aguilar
 
-*Esta aplicación solo usará JAVA 8, JAVA 9 debe ser probado en otro momento*
+*Esta aplicación utiliza JAVA 9, dejen atrás JAVA 8 de una buena vez*
 
 ![GitHub Logo](http://portal.uip.edu.pa/resources/images/institutions/banner_uip.png)

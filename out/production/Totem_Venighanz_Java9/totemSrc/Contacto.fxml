@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="totemSrc.Contacto" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Pane layoutX="236.0" layoutY="513.0" prefHeight="40.0" prefWidth="508.0" style="-fx-background-color: #272727;">
+            <children>
+                <Label layoutX="253.0" layoutY="3.0" text="Desarrollado por TeamBravo UIP " textFill="#f8f4f4">
+                    <font>
+                        <Font name="Pacifico" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="236.0" layoutY="33.0" prefHeight="76.0" prefWidth="508.0" style="-fx-background-color: #272727;">
+            <children>
+                <ImageView fx:id="totemHomeBtn" fitHeight="33.0" fitWidth="32.0" onMouseClicked="#totemHome" layoutX="31.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/008-restaurant-3.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemReservaBtn" fitHeight="32.0" fitWidth="53.0"  onMouseClicked="#totemReserva" layoutX="111.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/002-restaurant-4.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemMenuBtn" fitHeight="40.0" fitWidth="32.0" onMouseClicked="#totemMenu" layoutX="218.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/018-menu.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemContactoBtn" fitHeight="39.0" fitWidth="32.0" onMouseClicked="#totemContacto" layoutX="316.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/social-media/png/phone.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemLogBtn" fitHeight="76.0" fitWidth="74.0" layoutX="424.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/login-1.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="30.0" layoutY="50.0" text="Inicio" textFill="#0cc230">
+                    <font>
+                        <Font name="Arial Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Label layoutX="111.0" layoutY="50.0" text="Reserva" textFill="#0cc230">
+                    <font>
+                        <Font name="Arial Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Label layoutX="219.0" layoutY="50.0" text="Menu" textFill="#0cc230">
+                    <font>
+                        <Font name="Arial Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Label layoutX="305.0" layoutY="50.0" text="Contacto" textFill="#0cc230">
+                    <font>
+                        <Font name="Arial Bold" size="13.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="744.0" style="-fx-background-color: #060606;">
+            <children>
+                <Pane layoutY="33.0" prefHeight="520.0" prefWidth="238.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #0CC230, #1A6623);">
+                    <children>
+                        <ImageView fx:id="totemLogo" fitHeight="103.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/logo.jpg" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="14.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/man.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="13.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/man-2.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="11.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/girl-1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="10.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/girl.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="10.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/girl-1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="74.0" layoutX="10.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@Icons/FlatIcons/avatar/png/girl-1.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="127.0" text="Manuel Serna">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="73.0" layoutY="189.0" text="Luis Mora">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="70.0" layoutY="250.0" text="Shirley Quintero">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="312.0" text="Linda Bethancourt">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="70.0" layoutY="377.0" text="Gisabel Aguilar">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="443.0" text="Diana Reyes">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="718.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/close.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemMover" fitHeight="16.0" fitWidth="16.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/menu.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemFull" fitHeight="16.0" fitWidth="16.0" layoutX="697.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/full.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totemMin" fitHeight="23.0" fitWidth="16.0" layoutX="676.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/mini.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="totemOff" layoutX="666.0" layoutY="2.0" minWidth="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: none;" onAction="#totemExit"/>
+            </children>
+        </Pane>
+        <Label layoutX="201.0" layoutY="123.0" prefHeight="74.0" prefWidth="263.0" stylesheets="@stylesheets/bootstrap3.css" text="Contactanos" textAlignment="CENTER" textFill="#0cc230" textOverrun="CLIP" wrapText="true">
+            <font>
+                <Font name="Pacifico" size="36.0" />
+            </font>
+            <padding>
+                <Insets left="50.0" />
+            </padding>
+        </Label>
+        <Label layoutX="252.0" layoutY="207.0" text="Dirección: ">
+            <font>
+                <Font name="Lucida Calligraphy Italic" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="251.0" layoutY="244.0" text="Telefonos: +507- 242- 5268">
+            <font>
+                <Font name="Lucida Calligraphy Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="252.0" layoutY="226.0" text="La Chorrera, Market Plaza">
+            <font>
+                <Font name="Lucida Calligraphy Italic" size="14.0" />
+            </font>
+        </Label>
+        <ScrollPane layoutX="490.0" layoutY="135.0" prefHeight="360.0" prefWidth="250.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="364.0" prefWidth="235.0">
+                    <children>
+                        <ImageView fitHeight="121.0" fitWidth="219.0" layoutX="13.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/coral-reef-restaurant.jpg" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="159.0" fitWidth="214.0" layoutX="14.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/contactos.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="7.0" layoutY="9.0" prefHeight="52.0" prefWidth="230.0" stylesheets="@stylesheets/bootstrap3.css" text="Algunas Fotos" textFill="#2c2c2c" textOverrun="CLIP">
+                            <font>
+                                <Font name="Pacifico" size="19.0" />
+                            </font>
+                            <padding>
+                                <Insets left="50.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <BorderPane layoutX="245.0" layoutY="290.0" prefHeight="141.0" prefWidth="238.0" style="-fx-background-color: #131313;">
+            <center>
+                <ImageView fitHeight="143.0" fitWidth="228.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                    <image>
+                        <Image url="@images/mapa.png" />
+                    </image>
+                </ImageView>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
