@@ -3,13 +3,14 @@
 <?import java.lang.String?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="744.0" style="-fx-background-color: #EAEAEA;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="totemSrc.Controller">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="totemSrc.Resultado">
     <children>
         <Pane layoutX="236.0" layoutY="513.0" prefHeight="40.0" prefWidth="508.0" style="-fx-background-color: #272727;">
             <children>
@@ -18,6 +19,59 @@
                         <Font name="Pacifico" size="18.0" />
                     </font>
                 </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="236.0" layoutY="33.0" prefHeight="76.0" prefWidth="508.0" style="-fx-background-color: #272727;">
+            <children>
+                <ImageView fx:id="totem_HomeImg" fitHeight="33.0" fitWidth="32.0" layoutX="31.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/008-restaurant-3.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totem_ReservaImg" fitHeight="32.0" fitWidth="53.0" layoutX="111.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/002-restaurant-4.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totem_MenuImg" fitHeight="40.0" fitWidth="32.0" layoutX="218.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/restaurante/png/018-menu.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totem_ContactImg" fitHeight="39.0" fitWidth="32.0" layoutX="316.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/social-media/png/phone.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="totem_LogImg" fitHeight="76.0" fitWidth="74.0" layoutX="424.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Icons/FlatIcons/botones/png/login-1.png" />
+                    </image>
+                </ImageView>
+            <Button fx:id="totem_Home" layoutX="16.0" layoutY="41.0" mnemonicParsing="false" onAction="#totemHome" prefHeight="32.0" prefWidth="65.0" stylesheets="@stylesheets/bootstrap2.css" text="Inicio">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="success" />
+               </styleClass>
+            </Button>
+            <Button fx:id="totem_Reserva" layoutX="97.0" layoutY="41.0" mnemonicParsing="false" onAction="#totemReserva" prefHeight="32.0" prefWidth="81.0" stylesheets="@stylesheets/bootstrap2.css" text="Reserva">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="success" />
+               </styleClass>
+            </Button>
+            <Button fx:id="totem_Menu" layoutX="202.0" layoutY="42.0" mnemonicParsing="false" onAction="#totemMenu" prefHeight="32.0" prefWidth="65.0" stylesheets="@stylesheets/bootstrap2.css" text="Menu">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="success" />
+               </styleClass>
+            </Button>
+            <Button fx:id="totem_Contact" layoutX="295.0" layoutY="42.0" mnemonicParsing="false" onAction="#totemContacto" prefHeight="32.0" prefWidth="86.0" stylesheets="@stylesheets/bootstrap2.css" text="Contacto">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="success" />
+               </styleClass>
+            </Button>
             </children>
         </Pane>
         <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="744.0" style="-fx-background-color: #060606;">
@@ -91,7 +145,7 @@
                         </Label>
                     </children>
                 </Pane>
-                <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="718.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fx:id="totemOff" fitHeight="23.0" fitWidth="16.0" layoutX="718.0" layoutY="7.0" onMouseClicked="#totemExit" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@Icons/FlatIcons/botones/png/close.png" />
                     </image>
@@ -111,61 +165,13 @@
                         <Image url="@Icons/FlatIcons/botones/png/mini.png" />
                     </image>
                 </ImageView>
-                <Button fx:id="totemOff" layoutX="666.0" layoutY="2.0" minWidth="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: none;" />
             </children>
         </Pane>
-      <Pane layoutX="236.0" layoutY="32.0" prefHeight="76.0" prefWidth="508.0" style="-fx-background-color: #272727;">
-         <children>
-            <ImageView fx:id="totem_HomeImg" fitHeight="33.0" fitWidth="32.0" layoutX="31.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Icons/FlatIcons/restaurante/png/008-restaurant-3.png" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="totem_ReservaImg" fitHeight="32.0" fitWidth="53.0" layoutX="111.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Icons/FlatIcons/restaurante/png/002-restaurant-4.png" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="totem_MenuImg" fitHeight="40.0" fitWidth="32.0" layoutX="218.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Icons/FlatIcons/restaurante/png/018-menu.png" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="totem_ContactImg" fitHeight="39.0" fitWidth="32.0" layoutX="316.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Icons/FlatIcons/social-media/png/phone.png" />
-               </image>
-            </ImageView>
-            <ImageView fx:id="totem_LogImg" fitHeight="76.0" fitWidth="74.0" layoutX="424.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Icons/FlatIcons/botones/png/login-1.png" />
-               </image>
-            </ImageView>
-            <Button fx:id="totem_Home" layoutX="16.0" layoutY="41.0" mnemonicParsing="false" onAction="#totemHome" prefHeight="32.0" prefWidth="65.0" stylesheets="@stylesheets/bootstrap2.css" text="Inicio">
-               <styleClass>
-                  <String fx:value="btn" />
-                  <String fx:value="success" />
-               </styleClass>
-            </Button>
-            <Button fx:id="totem_Reserva" layoutX="97.0" layoutY="41.0" mnemonicParsing="false" onAction="#totemReserva" prefHeight="32.0" prefWidth="81.0" stylesheets="@stylesheets/bootstrap2.css" text="Reserva">
-               <styleClass>
-                  <String fx:value="btn" />
-                  <String fx:value="success" />
-               </styleClass>
-            </Button>
-            <Button fx:id="totem_Menu" layoutX="202.0" layoutY="42.0" mnemonicParsing="false" onAction="#totemMenu" prefHeight="32.0" prefWidth="65.0" stylesheets="@stylesheets/bootstrap2.css" text="Menu">
-               <styleClass>
-                  <String fx:value="btn" />
-                  <String fx:value="success" />
-               </styleClass>
-            </Button>
-            <Button fx:id="totem_Contact" layoutX="295.0" layoutY="42.0" mnemonicParsing="false" onAction="#totemContacto" prefHeight="32.0" prefWidth="81.0" stylesheets="@stylesheets/bootstrap2.css" text="Contacto">
-               <styleClass>
-                  <String fx:value="btn" />
-                  <String fx:value="success" />
-               </styleClass>
-            </Button>
-         </children>
-      </Pane>
+        <Label layoutX="247.0" layoutY="114.0" prefHeight="52.0" prefWidth="426.0" text="Resultado" textFill="#0cc230">
+            <font>
+                <Font name="Pacifico" size="26.0" />
+            </font>
+        </Label>
+      <ListView layoutX="267.0" layoutY="171.0" prefHeight="321.0" prefWidth="452.0" style="-fx-background-color: #eaeaea; -fx-border-color: #0CC230; -fx-border-width: 2px; -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) ,                1, 0.0 , 0 , 1);;" stylesheets="@stylesheets/bootstrap3.css" />
     </children>
 </AnchorPane>

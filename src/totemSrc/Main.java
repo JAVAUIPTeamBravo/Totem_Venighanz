@@ -5,6 +5,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -16,6 +17,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception
     {
+        primaryStage.getIcons().add(new Image("https://example.com/javaicon.png"));
         Parent root = FXMLLoader.load(getClass().getResource("Inicio.fxml"));
         //Añade eventos para que la ventana pueda moverse con un evento de Mouse
         root.setOnMousePressed(new EventHandler<MouseEvent>()

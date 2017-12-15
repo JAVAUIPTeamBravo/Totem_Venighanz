@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -16,38 +17,15 @@ import javafx.util.Duration;
 public class Contacto
 {
     @FXML
-    ImageView totemHomeBtn, totemReservaBtn, totemMenuBtn, totemContactoBtn;
+    Button totem_Home,totem_Reserva, totem_Menu, totem_Contact;
 
-    //Boton de Salida
-    public void totemExit(ActionEvent actionEvent)
+    @FXML
+    ImageView totemOff;
+
+    public void totemHome(ActionEvent actionEvent)
     {
-        System.out.println("Cerrando programa...");
-        Platform.exit();
-    }
-
-    public void totemHome(MouseEvent mouseEvent)
-    {
-        Stage stage = (Stage) totemHomeBtn.getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("opcion.fxml"));
-        Parent root = null;
-        try {
-            root = (Parent)fxmlLoader.load();
-        } catch (Exception e) {
-            Alert alerta = new Alert(Alert.AlertType.ERROR);
-            alerta.setTitle("Error de Aplicacion");
-            alerta.setHeaderText("Mira, hubo un error...");
-            alerta.setContentText("Lo siento. Llama al administrador.");
-            alerta.showAndWait();
-            Platform.exit();
-        }
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void totemReserva(MouseEvent mouseEvent) {
-        Stage stage = (Stage) totemReservaBtn.getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reserva.fxml"));
+        Stage stage = (Stage) totem_Home.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Inicio.fxml"));
         Parent root = null;
         try {
             root = fxmlLoader.load();
@@ -59,53 +37,88 @@ public class Contacto
             alerta.showAndWait();
             Platform.exit();
         }
-        FadeTransition ft = new FadeTransition(Duration.millis(1500), root);
-        ft.setFromValue(0.0);
-        ft.setToValue(1.0);
-        ft.play();
-        Reserva controller = fxmlLoader.<Reserva>getController();
-        //controller.setCuenta();
-        //controller.setSaldo();
+        FadeTransition load = new FadeTransition(Duration.millis(1500), root);
+        load.setFromValue(0.0);
+        load.setToValue(1.0);
+        load.play();
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
 
-    public void totemMenu(MouseEvent mouseEvent) {
-        Stage stage = (Stage) totemMenuBtn.getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("opcion.fxml"));
+    public void totemReserva(ActionEvent actionEvent) {
+        Stage stage = (Stage) totem_Reserva.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Reserva.fxml"));
         Parent root = null;
         try {
-            root = (Parent)fxmlLoader.load();
-        } catch (Exception e) {
+            root = fxmlLoader.load();
+        } catch (Exception e)
+        {
             Alert alerta = new Alert(Alert.AlertType.ERROR);
-            alerta.setTitle("Error de Aplicacion");
-            alerta.setHeaderText("Mira, hubo un error...");
-            alerta.setContentText("Lo siento. Llama al administrador.");
+            alerta.setTitle("AY LMAOOOOOOOO, se cerro :(");
+            alerta.setContentText("Se cerro esta aplicación por un error de excepción.");
             alerta.showAndWait();
             Platform.exit();
         }
+        FadeTransition load = new FadeTransition(Duration.millis(1500), root);
+        load.setFromValue(0.0);
+        load.setToValue(1.0);
+        load.play();
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
 
-    public void totemContacto(MouseEvent mouseEvent) {
-        Stage stage = (Stage) totemContactoBtn.getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("opcion.fxml"));
+    public void totemMenu(ActionEvent actionEvent) {
+        Stage stage = (Stage) totem_Menu.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Menu.fxml"));
         Parent root = null;
         try {
-            root = (Parent)fxmlLoader.load();
-        } catch (Exception e) {
+            root = fxmlLoader.load();
+        } catch (Exception e)
+        {
             Alert alerta = new Alert(Alert.AlertType.ERROR);
-            alerta.setTitle("Error de Aplicacion");
-            alerta.setHeaderText("Mira, hubo un error...");
-            alerta.setContentText("Lo siento. Llama al administrador.");
+            alerta.setTitle("AY LMAOOOOOOOO, se cerro :(");
+            alerta.setContentText("Se cerro esta aplicación por un error de excepción.");
             alerta.showAndWait();
             Platform.exit();
         }
+        FadeTransition load = new FadeTransition(Duration.millis(1500), root);
+        load.setFromValue(0.0);
+        load.setToValue(1.0);
+        load.play();
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+    }
+
+    public void totemContacto(ActionEvent actionEvent) {
+        Stage stage = (Stage) totem_Contact.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Contacto.fxml"));
+        Parent root = null;
+        try {
+            root = fxmlLoader.load();
+        } catch (Exception e)
+        {
+            Alert alerta = new Alert(Alert.AlertType.ERROR);
+            alerta.setTitle("AY LMAOOOOOOOO, se cerro :(");
+            alerta.setContentText("Se cerro esta aplicación por un error de excepción.");
+            alerta.showAndWait();
+            Platform.exit();
+        }
+        FadeTransition load = new FadeTransition(Duration.millis(1500), root);
+        load.setFromValue(0.0);
+        load.setToValue(1.0);
+        load.play();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    //Boton de Salida
+    public void totemExit(MouseEvent mouseEvent)
+    {
+        System.out.println("Cerrando programa...");
+        Platform.exit();
     }
 }

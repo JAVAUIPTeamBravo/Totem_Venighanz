@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 
-public class Inicio
+public class Resultado
 {
     @FXML
     Button totem_Home,totem_Reserva, totem_Menu, totem_Contact;
