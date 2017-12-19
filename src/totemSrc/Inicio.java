@@ -65,6 +65,8 @@ public class Inicio
         load.setFromValue(0.0);
         load.setToValue(1.0);
         load.play();
+        Reserva totemControllerCarga = fxmlLoader.<Reserva>getController();
+        totemControllerCarga.totemSetReservas();
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
